@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spartan:wght@700;800&display=swap');
+
+html {    
+    margin: auto;
+    color: #FDFFFE;
+    font-family: 'Roboto', sans-serif;
+    background-color: #232C31;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    padding: auto;
+}
+body{
+    margin-bottom: 100cm;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: #EBB1B0;
+    font-weight: 800;
+    font-family: 'Spartan', sans-serif;
+}
+.Chapters
+{
+    align-self: center;
+
+    max-width: 15cm;
+    min-width: 15cm;
+
+    color: #EBB1B0;
+    font-weight: 700;
+    font-family: 'Spartan', sans-serif;
+
+    margin-bottom: 150px;
+}
+.Chapters h1{
+    text-align: left;
+    color: #EBB1B0;
+    font-weight: 800;
+    margin-top: -15px;
+    font-size: 120px;
+    font-family: 'Spartan', sans-serif;
+}
+.Chapters h2{
+    text-align: right;
+    color: #FDFFFE;
+    font-weight: 800;
+    font-family: 'Spartan', sans-serif;
+}
+.Chapters div{
+    width: 100cm;
+    margin: 15px;
+    margin-bottom: 35px;
+    padding-left: 50px;
+    font-size: 300%;
+}
+.Chapters p{
+    color: #FDFFFE;
+    margin: 15px;
+    text-align:left;
+    display:inline;
+    font-size: 50%;
+}
+.Chapters body{
+    color: #FDFFFE;
+}
