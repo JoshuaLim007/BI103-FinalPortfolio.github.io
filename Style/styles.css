@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spartan:wght@700;800&display=swap');
+html {
+    margin: auto;
+    color: #FDFFFE;
+    font-family: 'Roboto', sans-serif;
+    background-color: #232C31;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    padding: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-bottom: 100cm;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #EBB1B0;
+    font-weight: 800;
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+}
+
+.NavBar {
+    position: fixed;
+    right: 2%;
+    top: 8%;
+    height: 85%;
+    width: 180px;
+}
+
+.NavBar p {
+    color: #EBB1B0;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: medium;
+    font-weight: 700;
+    font-family: 'Spartan', sans-serif;
+    cursor: pointer;
+}
+
+.Chapters {
+    align-self: center;
+    max-width: 15cm;
+    min-width: 15cm;
+    color: #EBB1B0;
+    font-weight: 700;
+    font-family: 'Spartan', sans-serif;
+    margin-bottom: 150px;
+}
+
+.Chapters h1 {
+    text-align: left;
+    color: #EBB1B0;
+    font-weight: 800;
+    margin-top: -15px;
+    font-size: 120px;
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+}
+
+.Chapters h2 {
+    text-transform: uppercase;
+    text-align: right;
+    color: #FDFFFE;
+    font-weight: 800;
+    font-family: 'Spartan', sans-serif;
+}
+
+.Chapters div {
+    text-transform: uppercase;
+    width: 100cm;
+    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding-left: 50px;
+    font-size: 300%;
+    cursor: pointer;
+}
+
+.Chapters p {
+    text-transform: uppercase;
+    color: #FDFFFE;
+    margin: 15px;
+    text-align: left;
+    display: inline;
+    font-size: 50%;
+    vertical-align: text-top;
+}
+
+.Chapters body {
+    color: #FDFFFE;
+}
+
+.ChapterSections {
+    min-width: 15cm;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 500px;
+}
+
+.ChapterSections h1 {
+    text-transform: uppercase;
+    text-align: left;
+    color: #EBB1B0;
+    font-weight: 700;
+    font-family: 'Spartan', sans-serif;
+    font-size: 100px;
+    margin-bottom: 50px;
+    margin-right: 500px;
+}
+
+.ChapterContent {
+    padding: auto;
+    padding-right: 100px;
+    font-size: 150%;
+    margin-bottom: 100px;
+}
