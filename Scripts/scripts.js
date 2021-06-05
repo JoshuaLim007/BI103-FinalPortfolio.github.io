@@ -25,6 +25,7 @@ function lerp(a, b, x) {
 window.onscroll = function() {
     var first = document.getElementById("0");
     var scrollDistance = window.scrollY - first.offsetTop + first.offsetHeight;
+    console.log(scrollDistance);
     if (scrollDistance > -200) {
         var time = invlerp(scrollDistance, -200, 200);
         console.log(time);
